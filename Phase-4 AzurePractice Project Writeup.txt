@@ -1,0 +1,25 @@
+Deploy an ASP.NET WebForms Application on Azure
+
+Github: https://github.com/sundershyam04/Phase-4-Azure-Practice-Project.git
+
+----------------------------------WRITEUP-------------------------------------------------------
+
+1) School Webforms project is created with 3 Webforms Student, Subject, Class  and Table repectively
+
+2) front end of forms of 4 pages are created 
+
+3) An Database is created in Azure hosted on Azure SQLSERVER.
+
+4) From SSMS, connect with the server name created in Azure with sqlserver authentication 
+
+5) With valid login credentials, azure database is connected in ssms and tables of student subject and class are created
+
+6) From the webforms project, Student forms is submitted with the button and check for its correct functionality with table page in project
+
+7)  Table forms, in the project extracts current data in all the tables in a page 
+
+8) Student data is entered and submitted (using ADO.NET connected architecture) and checked for its updation in Table page
+
+9) The project is deployed on Azure and run on the server URL from Azure.
+
+
